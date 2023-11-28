@@ -18,7 +18,7 @@
 
 userGuess = Number(prompt("Adivinhe o número que estou pensando? Está entre 0 e 10"))
 let randomNumber = Math.floor(Math.random() * 10 + 1)
-let retries = 0
+let retries = 1
 
 while(userGuess !== randomNumber) {
     userGuess = Number(prompt("Errou! Tente novamente: "))
